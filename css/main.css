@@ -7,7 +7,11 @@ body {
   border-style: solid;
   padding:.6em .5em .75em;
   background-color: #79756f;
-  border-color: #595652;
+  border-top-color: #595652;
+  border-bottom-color: #595652;
+  border-left-color: #79756f;
+  border-right-color: #79756f;
+  display: inline-block;
 }
 
 h1 {
@@ -23,9 +27,9 @@ nav {
 }
 
 nav li {
-  display: inline;
+  display: inline-block;
   font-family: "Bevan", serif;
-
+  text-align: center;
 }
 
 nav a {
@@ -38,7 +42,7 @@ nav a {
   text-decoration: none;
   text-align: center;
   color: #fff;
-  font-weight: normal;
+  font-weight: lighter;
   border-radius: 5px;
 }
 
