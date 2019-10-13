@@ -1,22 +1,29 @@
-html {
-  background-color: #dbd6cf
-}
+  html {
+    box-sizing: border-box;
+    background-color: #dbd6cf;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
 
 body {
   font-family: "Bevan", serif;
   border-style: solid;
+  margin: .3em;
   padding:.6em .5em .75em;
   background-color: #79756f;
   border-top-color: #595652;
-  border-bottom-color: #595652;
-  border-left-color: #79756f;
-  border-right-color: #79756f;
+  border-bottom-color:#595652;
+  border-left-color:#79756f;
+  border-right-color:#79756f;
   display: inline-block;
 }
 
 h1 {
   text-align: center;
   color: #fff;
+  font-family: "Bevan", serif;
 }
 
 nav {
@@ -42,7 +49,6 @@ nav a {
   text-decoration: none;
   text-align: center;
   color: #fff;
-  font-weight: lighter;
   border-radius: 5px;
 }
 
