@@ -8,16 +8,15 @@ html {
 }
 
 body {
-  font-family: "Bevan", serif;
+  font-family: sans-serif;
   border-style: solid;
-  margin: .5em;
   padding: .6em .5em .75em;
   background-color: #79756f;
   border-top-color: #595652;
   border-bottom-color: #595652;
   border-left-color: #79756f;
   border-right-color: #79756f;
-  display: inline-block;
+  display: block;
 }
 
 h1 {
@@ -28,28 +27,30 @@ h1 {
 
 nav {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   text-align: center;
 }
 
-nav li {
+nav ul{
   display: inline-block;
-  font-family: "Bevan", serif;
-  text-align: center;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 nav a {
-  font-weight: lighter;
-  display: inline-block;
-  width: 8em;
   padding: .6em .5em .75em;
-  margin: .3em;
   background-color: #713837;
   text-decoration: none;
   text-align: center;
   color: #fff;
   border-radius: 5px;
+}
+
+nav li {
+  text-decoration: none;
+  display: inline-block;
+  margin: .3em;
 }
 
 a:hover {
