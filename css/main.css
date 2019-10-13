@@ -1,16 +1,16 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  }
+}
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
 body {
-  font-family: 'Bevan', serif;
+  font-family: "Bevan", serif;
   border-style: solid;
-  margin: .3em;
+  margin: .5em;
   padding: .6em .5em .75em;
   background-color: #79756f;
   border-top-color: #595652;
@@ -23,7 +23,7 @@ body {
 h1 {
   text-align: center;
   color: #fff;
-  font-family: 'Bevan', sans-serif;
+  font-family: "Bevan", sans-serif;
 }
 
 nav {
@@ -35,7 +35,7 @@ nav {
 
 nav li {
   display: inline-block;
-  font-family: 'Bevan', serif;
+  font-family: "Bevan", serif;
   text-align: center;
 }
 
