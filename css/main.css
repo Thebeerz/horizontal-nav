@@ -17,13 +17,14 @@ body {
   border-bottom-color: #595652;
   border-left-color: #79756f;
   border-right-color: #79756f;
-  display: inline-block;
+  display: block;
 }
 
 h1 {
   text-align: center;
   color: #fff;
-  font-family: sans-serif;
+  font-family: "bevan", sans-serif;
+  margin: 0;
 }
 
 nav {
@@ -42,7 +43,7 @@ nav ul {
 
 nav a {
   padding: .6em .5em .75em;
-  margin: .3em;
+  margin: .3em 0;
   display: block;
   background-color: #713837;
   text-decoration: none;
@@ -54,7 +55,7 @@ nav a {
 nav li {
   text-decoration: none;
   display: inline-block;
-  margin: .3em;
+  margin: 0;
 }
 
 a:hover {
