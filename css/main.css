@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
+  font-family: Bevan, serif;
 }
 
 *, *::before, *::after {
@@ -23,7 +24,6 @@ body {
 h1 {
   text-align: center;
   color: #fff;
-  font-family: Bevan, sans-serif;
   line-height: 1.5;
   margin: 0;
 }
